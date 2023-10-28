@@ -1,0 +1,10 @@
+touch ipsweep.sh
+### you run this file
+sudo su
+# put apassword of user
+chmod +x ipsweep.sh
+nano ipsweep
+### put the function in ipsweep 
+./ipsweep.sh 192.168.1 > ip_devices_in_my_network.txt
+nano ip_devices_in_my_network.txt
+########have fun 
